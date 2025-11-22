@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adobe Website</title>
+  <link rel="stylesheet" href="Index.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <nav class="container">
+    <div class="main-nav">
+      <div class="inner-nav1">
+        <a href="/"><img src="Images/logo.jpg" alt="Logo"></a>
+      </div>
+      <div class="inner-nav2">
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/project">Project</a>
+        <a href="/contact">Contact</a>
+      </div>
+      <div class="inner-nav3">
+        <button class="btn">Get in Touch</button>
+        <button class="Mobile-menu">Hello</button>
+      </div>
+    </div>
+  </nav>
+  <section class="banner-section">
+    <img src="https://images.unsplash.com/photo-1563019589-7e7db5152430?q=80&w=1170&auto=format&fit=crop" alt="Banner">
+  </section>
+
+  <section class="about">
+    <div class="about-container container">
+      <div class="about-1">
+        <img src="https://cdn.pixabay.com/photo/2020/01/12/13/22/photoshop-4759954_1280.jpg" alt="">
+      </div>
+      <div class="about-2">
+        <h1>About Us</h1>
+        <p>We are a team of designers, editors, and creative enthusiasts who believe in the power of visual storytelling. From beginners to professionals, we provide resources and support for everyone who wants to enhance their Adobe skills. For years, we’ve been working with Adobe’s powerful suite of tools — Photoshop, Illustrator, After Effects, Premiere Pro, Lightroom, and more. During this journey, we realized one thing: great design isn’t just about tools… it’s about creativity, learning, and the right guidance.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section_3">
+    <div class="section-3-inner">
+      <h1>Our Services</h1>
+      <div class="services container">
+        <div class="services-inner1">
+          <img src="https://marketplace.canva.com/EAFVHstxnwk/1/0/800w/canva-beige-aesthetic-exclusive-fashion-wear-collection-clothing-banner-yv-HRWs1aMc.jpg" alt="">
+          <h1>Professional Adobe Tutorials</h1>
+          <p>Learn Adobe tools like Photoshop, Illustrator, After Effects, Premiere Pro, and Lightroom with our step-by-step tutorials. From beginner basics to advanced techniques, we make mastering creative software simple and effective.</p>
+        </div>
+
+        <div class="services-inner1">
+          <img src="https://d33wubrfki0l68.cloudfront.net/f9a3d360ac4da3f02b1888bbf1c05929d4e0d8a1/7abfd/blog/static/026edeb3a49c94ecc2a53afd205c0d9a/de8d1/asian-professional-video-editor-sitting-multi-monitor-workspace-while-enhancing-movie-footage-quality-using-advanced-software-post-production-house-team-leader-editing-film-frames-scaled.jpg" alt="">
+          <h1>Creative Templates & Assets</h1>
+          <p>Access a wide range of ready-to-use templates, design elements, mockups, and assets for all Adobe applications. Save time and elevate your projects with professional-quality resources.</p>
+        </div>
+
+        <div class="services-inner1">
+          <img src="https://static1.xdaimages.com/wordpress/wp-content/uploads/wm/2025/04/adobe-website-displayed-on-desktop-pc-with-headphones-poster-and-lego-in-view.jpg" alt="">
+          <h1>Tips, Tricks & Project Inspiration</h1>
+          <p>Discover practical tips, workflow hacks, and creative project ideas to enhance your skills and bring innovative designs to life. Stay inspired and keep improving with our expert guidance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 All Rights Reserved.</p>
+  </footer>
+
+  <div id="modalForm" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+
+      <div id="registerForm">
+        <h2>Create Account</h2>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="password" placeholder="Password" required>
+        <button class="btn-submit">Sign Up</button>
+        <p class="switch-text">Already have an account? <span id="switchToLogin">Login</span></p>
+      </div>
+
+      <div id="loginForm">
+        <h2>Login</h2>
+        <input type="email" placeholder="Email Address" required>
+        <input type="password" placeholder="Password" required>
+        <button class="btn-submit">Login</button>
+        <p class="switch-text">Don't have an account? <span id="switchToRegister">Register</span></p>
+      </div>
+    </div>
+  </div>
+  <script src="Index.js"></script>
+</body>
+</html>
